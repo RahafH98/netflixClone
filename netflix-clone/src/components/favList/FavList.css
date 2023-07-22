@@ -1,0 +1,28 @@
+.mainDiv{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.favMainCard:hover {
+  background-color: #c3ebd3;
+  
+  box-shadow: 0 0 5px rgba(40, 80, 58, 0.3);
+  transform: scale(1.05);
+}
+
+.favImg {
+  width: 200px;
+  height: 500px;
+  object-fit: cover;
+
+}
+
+.favButton:hover {
+  box-shadow: 0 0 5px rgba(40, 80, 58, 0.3);
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+}

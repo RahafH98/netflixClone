@@ -1,0 +1,13 @@
+.modalImg {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .buttonM:hover {
+    box-shadow: 0 0 5px rgba(56, 55, 55, 0.3);
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+  }

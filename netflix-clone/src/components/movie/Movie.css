@@ -1,0 +1,34 @@
+.mainCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 12px;
+  }
+  
+  .mainCard:hover {
+    background-color: #afddc1;
+    box-shadow: 0 0 5px rgba(28, 54, 46, 0.3);
+    transform: scale(1.05);
+  }
+  
+  .cardImg {
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .buttonModal:hover {
+    box-shadow: 0 0 5px rgba(26, 44, 48, 0.3);
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+  }
